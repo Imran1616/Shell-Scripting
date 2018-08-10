@@ -1,6 +1,11 @@
 #! /bin/bash
 
+# A Bash script which automates the process of creating Apache virtualhost configuration files and a document root directory. The script will 
+# perform the necessary checks to accommodate first-time execution of the script on a server, as well as ensure that virtual host conflicts do 
+# not occur.
+
 # Variables
+
 VHOSTNAME=$1
 TIER=$2
 
